@@ -1,0 +1,165 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+html {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/* 
+ */
+body {
+  background-color: var(--background);
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+:root {
+  --background: #d9e6f4;
+  --headerFooter: #5b3be6;
+  --black: 000000;
+  --white: #ffffff;
+}
+
+.navigation {
+  padding-top: 1rem;
+  color: white;
+  background: var(--headerFooter);
+  padding: 2rem;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
+
+.navigation .nav-brand {
+  font-weight: bold;
+  font-size: 1.7rem;
+}
+/* image */
+.img-section {
+  padding: 1rem;
+  text-align: center;
+  /* display: center; */
+}
+
+.img-section img {
+  max-width: 350px;
+  padding: 1rem;
+}
+
+.one h2 {
+  color: #5b21b6;
+  font-style: italic;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+.section {
+  height: 40vh;
+  padding: 1rem;
+}
+
+.podcast-box {
+  textalign: center;
+  font-weight: bold;
+}
+
+.podcast-link {
+  padding: 1rem;
+  border: 1px solid border;
+  borderradius: 0.5rem;
+  width: 85%;
+  margin: 1rem 0rem;
+}
+
+.spotify-link {
+  text-decoration: none;
+}
+
+/* footer */
+/* 
+footer {
+  margin: auto;
+  padding-top: 1rem;
+  background-color: black;
+  text-align: center;
+  padding-bottom: 0.5rem;
+  
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li {
+  display: inline;
+  padding: 0.2em;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.a1 {
+  color: #e1306c;
+}
+
+.a2 {
+  color: #2867b2;
+}
+.a3 {
+  color: #f6d55c;
+}
+
+.a4 {
+  color: #26a7de;
+} */
+
+footer {
+  background: var(--headerFooter);
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 2rem;
+  /* box-shadow: 0px 10px 5px rgb(175, 173, 173), 0px -10px 5px #ccc; */
+  color: var(--white);
+}
+
+footer i {
+  color: white;
+  font-size: 30px;
+  margin: 1rem;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--white);
+}
+
+.links li {
+  list-style-type: none;
+  color: var(--white);
+}
+
+.list-non-bullet {
+  display: inline-flex;
+  margin: auto;
+  /* width: 24%; */
+  list-style-type: none;
+}
+
+.link :hover {
+  color: darkblue;
+  size: 10em;
+}
+
+#footer-connect {
+  padding: 0;
+}
