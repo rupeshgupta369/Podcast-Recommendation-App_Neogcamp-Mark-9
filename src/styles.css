@@ -57,8 +57,9 @@ body {
 }
 
 .section {
-  height: 40vh;
+  height: 60vh;
   padding: 1rem;
+  display: flexbox;
 }
 
 .podcast-box {
@@ -76,48 +77,27 @@ body {
 
 .spotify-link {
   text-decoration: none;
+  color: white;
+}
+
+.spotify-link :hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn-spotify {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+  background-color: var(--headerFooter);
+}
+
+.btn-spotify :hover {
+  /* box-shadow: 1px 1px 1px 1px rgba(131, 131, 131, 0.616); */
 }
 
 /* footer */
-/* 
-footer {
-  margin: auto;
-  padding-top: 1rem;
-  background-color: black;
-  text-align: center;
-  padding-bottom: 0.5rem;
-  
-}
-
-footer ul {
-  list-style: none;
-}
-
-footer ul li {
-  display: inline;
-  padding: 0.2em;
-}
-
-footer ul li a {
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-}
-
-.a1 {
-  color: #e1306c;
-}
-
-.a2 {
-  color: #2867b2;
-}
-.a3 {
-  color: #f6d55c;
-}
-
-.a4 {
-  color: #26a7de;
-} */
 
 footer {
   background: var(--headerFooter);

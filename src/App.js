@@ -83,12 +83,21 @@ export default function App() {
               >
                 {" "}
                 <div style={{ fontSize: "larger" }}> {parameter.name} </div>
-                <div class="spotify-link" style={{ fontSize: "smaller" }}>
+                <div style={{ fontSize: "smaller" }}>
                   {" "}
-                  <a href={parameter.link} target={"_blank"}>
-                    {parameter.link}
-                  </a>
-                  {/* <button>Spotify Link<a href={parameter.link} target={"_blank"}>{parameter.link}</a></button> */}
+                  {/* <a href={parameter.link} target={"_blank"}>{parameter.link}</a> */}
+                  <div>
+                    <button class="btn-spotify">
+                      {/* {parameter.link} */}
+                      <a
+                        class="spotify-link"
+                        href={parameter.link}
+                        target={"_blank"}
+                      >
+                        Spotify Link
+                      </a>
+                    </button>
+                  </div>
                 </div>
               </li>
             ))}
